@@ -37,38 +37,33 @@ public class PlayerBall : MonoBehaviour
         {
             Touch touch = Input.GetTouch(0);
             Vector3 touchPosition = Camera.main.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, Camera.main.nearClipPlane));
+            //Debug.Log("Touch position (screen): " + touchPosition);
+            
+            Ray ray = Camera.main.ScreenPointToRay(touch.position);
+            RaycastHit hit;
+
+            // TO SOLVE, detects correctly the ball touch, however draggin works as well withou touching, perhaps reset firsttouchposition value 
 
             switch (touch.phase)
             {
                 case TouchPhase.Began:
-                    if (isTouchingBall(touchPosition))
-                    {
-                        // WHY isDragging = true;
+                    if(isTouchingBall(ray,out hit)) {
                         firstTouchPosition = touchPosition;
-                        Debug.Log("Touched the ball");
-                    }
+                     }
                     break;
 
                 case TouchPhase.Moved:
-
-                    if(isTouchingBall(touchPosition)){
-
-                        isDragging = true;
-                        Debug.Log("I am draggin");
-                        if (isDragging)
-                        {
-                            lastTouchPosition = touchPosition;
-                        }
-
-                    }
+                    isDragging = true;
+                    Debug.Log("I am draggin");
                     break;
 
                 case TouchPhase.Ended:
-
-                    lastTouchPosition = touchPosition;
-                    Vector3 direction = (lastTouchPosition - firstTouchPosition).normalized;
-                    Debug.Log($"This is my Direction Vector: {direction} ");
-                    MoveBall(direction);
+                    if (isDragging) {
+                        lastTouchPosition = touchPosition;
+                        Vector3 direction = (lastTouchPosition - firstTouchPosition).normalized;
+                        Debug.Log($"This is my Direction Vector: {direction} ");
+                        MoveBall(direction);
+                    }
                     break;
 
                 case TouchPhase.Canceled:
@@ -79,17 +74,7 @@ public class PlayerBall : MonoBehaviour
     }
 
     // Not working properly
-    private bool isTouchingBall(Vector3 touchPosition){
-        Ray ray = Camera.main.ScreenPointToRay(touchPosition);
-        RaycastHit hit;
-
-        if(Physics.Raycast(ray, out hit)) {
-            if (hit.collider.gameObject == gameObject) {
-                return true;
-            }
-        }
-        return false;
-    }
+    
 
     private void MoveBall(Vector3 direction)
     {
@@ -102,6 +87,21 @@ public class PlayerBall : MonoBehaviour
         rb.AddForce(xVector, (float) 0.0, zVector * rollSpeed , ForceMode.Impulse);
     }
 
+
+    private bool isTouchingBall(Ray ray,out RaycastHit hit){
+        if (Physics.Raycast(ray, out hit))
+        {
+            GameObject touchedObject = hit.collider.gameObject;
+            if(touchedObject.tag == "Player") {
+                return true;
+            }  else {
+                return false;
+            }
+            
+        } else {
+            return false;
+        }
+    }
 
 
 

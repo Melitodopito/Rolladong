@@ -1,0 +1,2511 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/melito/Rolladong/Assembly-CSharp-Editor.csproj": {}
+  },
+  "projects": {
+    "/home/melito/Rolladong/Assembly-CSharp-Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Assembly-CSharp-Editor.csproj",
+        "projectName": "Assembly-CSharp-Editor",
+        "projectPath": "/home/melito/Rolladong/Assembly-CSharp-Editor.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Assembly-CSharp-Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/Assembly-CSharp.csproj": {
+                "projectPath": "/home/melito/Rolladong/Assembly-CSharp.csproj"
+              },
+              "/home/melito/Rolladong/Unity.AdaptivePerformance.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.AdaptivePerformance.Profiler.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.Profiler.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.AdaptivePerformance.Simulator.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.Simulator.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.AdaptivePerformance.Simulator.Extension.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.Simulator.Extension.csproj"
+              },
+              "/home/melito/Rolladong/Unity.AdaptivePerformance.UI.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.UI.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.AdaptivePerformance.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Mobile.AndroidLogcat.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Mobile.AndroidLogcat.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Notifications.Android.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Notifications.Android.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Notifications.Unified.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Notifications.Unified.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Notifications.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Notifications.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Notifications.iOS.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Notifications.iOS.csproj"
+              },
+              "/home/melito/Rolladong/Unity.PlasticSCM.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.PlasticSCM.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Profiling.Core.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Profiling.Core.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Rider.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Rider.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Subsystem.Registration.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Subsystem.Registration.csproj"
+              },
+              "/home/melito/Rolladong/Unity.TextMeshPro.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.TextMeshPro.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.TextMeshPro.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.TextMeshPro.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Timeline.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Timeline.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Timeline.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Timeline.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VSCode.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VSCode.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Core.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Core.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Flow.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Flow.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Flow.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.SettingsProvider.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.SettingsProvider.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Shared.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Shared.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.State.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.State.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.State.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.State.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualStudio.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualStudio.Editor.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Assembly-CSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Assembly-CSharp.csproj",
+        "projectName": "Assembly-CSharp",
+        "projectPath": "/home/melito/Rolladong/Assembly-CSharp.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Assembly-CSharp/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/Unity.AdaptivePerformance.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.AdaptivePerformance.Profiler.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.Profiler.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.AdaptivePerformance.Simulator.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.Simulator.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.AdaptivePerformance.Simulator.Extension.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.Simulator.Extension.csproj"
+              },
+              "/home/melito/Rolladong/Unity.AdaptivePerformance.UI.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.UI.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.AdaptivePerformance.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Mobile.AndroidLogcat.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Mobile.AndroidLogcat.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Notifications.Android.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Notifications.Android.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Notifications.Unified.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Notifications.Unified.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Notifications.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Notifications.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Notifications.iOS.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Notifications.iOS.csproj"
+              },
+              "/home/melito/Rolladong/Unity.PlasticSCM.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.PlasticSCM.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Profiling.Core.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Profiling.Core.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Rider.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Rider.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Subsystem.Registration.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Subsystem.Registration.csproj"
+              },
+              "/home/melito/Rolladong/Unity.TextMeshPro.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.TextMeshPro.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.TextMeshPro.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.TextMeshPro.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Timeline.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Timeline.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Timeline.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Timeline.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VSCode.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VSCode.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Core.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Core.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Flow.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Flow.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Flow.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.SettingsProvider.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.SettingsProvider.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Shared.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Shared.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.State.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.State.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.State.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.State.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualStudio.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualStudio.Editor.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.AdaptivePerformance.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.AdaptivePerformance.Editor.csproj",
+        "projectName": "Unity.AdaptivePerformance.Editor",
+        "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.Editor.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.AdaptivePerformance.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/Unity.AdaptivePerformance.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Profiling.Core.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Profiling.Core.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.AdaptivePerformance.Profiler.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.AdaptivePerformance.Profiler.Editor.csproj",
+        "projectName": "Unity.AdaptivePerformance.Profiler.Editor",
+        "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.Profiler.Editor.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.AdaptivePerformance.Profiler.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/Unity.AdaptivePerformance.UI.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.UI.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.AdaptivePerformance.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.AdaptivePerformance.Simulator.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.AdaptivePerformance.Simulator.Editor.csproj",
+        "projectName": "Unity.AdaptivePerformance.Simulator.Editor",
+        "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.Simulator.Editor.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.AdaptivePerformance.Simulator.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/Unity.AdaptivePerformance.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.AdaptivePerformance.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.AdaptivePerformance.Simulator.Extension.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.AdaptivePerformance.Simulator.Extension.csproj",
+        "projectName": "Unity.AdaptivePerformance.Simulator.Extension",
+        "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.Simulator.Extension.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.AdaptivePerformance.Simulator.Extension/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/Unity.AdaptivePerformance.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.AdaptivePerformance.Simulator.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.Simulator.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.AdaptivePerformance.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.AdaptivePerformance.UI.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.AdaptivePerformance.UI.Editor.csproj",
+        "projectName": "Unity.AdaptivePerformance.UI.Editor",
+        "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.UI.Editor.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.AdaptivePerformance.UI.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.AdaptivePerformance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.AdaptivePerformance.csproj",
+        "projectName": "Unity.AdaptivePerformance",
+        "projectPath": "/home/melito/Rolladong/Unity.AdaptivePerformance.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.AdaptivePerformance/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/Unity.Profiling.Core.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Profiling.Core.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Subsystem.Registration.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Subsystem.Registration.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Flow.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.Mobile.AndroidLogcat.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.Mobile.AndroidLogcat.Editor.csproj",
+        "projectName": "Unity.Mobile.AndroidLogcat.Editor",
+        "projectPath": "/home/melito/Rolladong/Unity.Mobile.AndroidLogcat.Editor.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.Mobile.AndroidLogcat.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.Notifications.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.Notifications.Android.csproj",
+        "projectName": "Unity.Notifications.Android",
+        "projectPath": "/home/melito/Rolladong/Unity.Notifications.Android.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.Notifications.Android/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.Notifications.Unified.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.Notifications.Unified.csproj",
+        "projectName": "Unity.Notifications.Unified",
+        "projectPath": "/home/melito/Rolladong/Unity.Notifications.Unified.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.Notifications.Unified/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/Unity.Notifications.Android.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Notifications.Android.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Notifications.iOS.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Notifications.iOS.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.Notifications.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.Notifications.csproj",
+        "projectName": "Unity.Notifications",
+        "projectPath": "/home/melito/Rolladong/Unity.Notifications.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.Notifications/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/Unity.Notifications.Android.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Notifications.Android.csproj"
+              },
+              "/home/melito/Rolladong/Unity.Notifications.iOS.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Notifications.iOS.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.Notifications.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.Notifications.iOS.csproj",
+        "projectName": "Unity.Notifications.iOS",
+        "projectPath": "/home/melito/Rolladong/Unity.Notifications.iOS.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.Notifications.iOS/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.PlasticSCM.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.PlasticSCM.Editor.csproj",
+        "projectName": "Unity.PlasticSCM.Editor",
+        "projectPath": "/home/melito/Rolladong/Unity.PlasticSCM.Editor.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.PlasticSCM.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.Profiling.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.Profiling.Core.csproj",
+        "projectName": "Unity.Profiling.Core",
+        "projectPath": "/home/melito/Rolladong/Unity.Profiling.Core.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.Profiling.Core/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.Rider.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.Rider.Editor.csproj",
+        "projectName": "Unity.Rider.Editor",
+        "projectPath": "/home/melito/Rolladong/Unity.Rider.Editor.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.Rider.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.Subsystem.Registration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.Subsystem.Registration.csproj",
+        "projectName": "Unity.Subsystem.Registration",
+        "projectPath": "/home/melito/Rolladong/Unity.Subsystem.Registration.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.Subsystem.Registration/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.TextMeshPro.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.TextMeshPro.Editor.csproj",
+        "projectName": "Unity.TextMeshPro.Editor",
+        "projectPath": "/home/melito/Rolladong/Unity.TextMeshPro.Editor.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.TextMeshPro.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/Unity.TextMeshPro.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.TextMeshPro.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.TextMeshPro.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.TextMeshPro.csproj",
+        "projectName": "Unity.TextMeshPro",
+        "projectPath": "/home/melito/Rolladong/Unity.TextMeshPro.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.TextMeshPro/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.Timeline.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.Timeline.Editor.csproj",
+        "projectName": "Unity.Timeline.Editor",
+        "projectPath": "/home/melito/Rolladong/Unity.Timeline.Editor.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.Timeline.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/Unity.Timeline.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.Timeline.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.Timeline.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.Timeline.csproj",
+        "projectName": "Unity.Timeline",
+        "projectPath": "/home/melito/Rolladong/Unity.Timeline.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.Timeline/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.VSCode.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.VSCode.Editor.csproj",
+        "projectName": "Unity.VSCode.Editor",
+        "projectPath": "/home/melito/Rolladong/Unity.VSCode.Editor.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.VSCode.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.VisualScripting.Core.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.VisualScripting.Core.Editor.csproj",
+        "projectName": "Unity.VisualScripting.Core.Editor",
+        "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Core.Editor.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.VisualScripting.Core.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj",
+        "projectName": "Unity.VisualScripting.Core",
+        "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.VisualScripting.Core/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.VisualScripting.Flow.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.VisualScripting.Flow.Editor.csproj",
+        "projectName": "Unity.VisualScripting.Flow.Editor",
+        "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Flow.Editor.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.VisualScripting.Flow.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/Unity.VisualScripting.Core.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Core.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Flow.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.VisualScripting.Flow.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.VisualScripting.Flow.csproj",
+        "projectName": "Unity.VisualScripting.Flow",
+        "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Flow.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.VisualScripting.Flow/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.VisualScripting.SettingsProvider.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.VisualScripting.SettingsProvider.Editor.csproj",
+        "projectName": "Unity.VisualScripting.SettingsProvider.Editor",
+        "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.SettingsProvider.Editor.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.VisualScripting.SettingsProvider.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/Unity.VisualScripting.Core.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Core.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Flow.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Flow.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Flow.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.State.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.State.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.VisualScripting.Shared.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.VisualScripting.Shared.Editor.csproj",
+        "projectName": "Unity.VisualScripting.Shared.Editor",
+        "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Shared.Editor.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.VisualScripting.Shared.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/Unity.VisualScripting.Core.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Core.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Flow.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Flow.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Flow.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.State.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.State.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.State.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.State.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.VisualScripting.State.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.VisualScripting.State.Editor.csproj",
+        "projectName": "Unity.VisualScripting.State.Editor",
+        "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.State.Editor.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.VisualScripting.State.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/Unity.VisualScripting.Core.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Core.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Flow.Editor.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Flow.Editor.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Flow.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.State.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.State.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.VisualScripting.State.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.VisualScripting.State.csproj",
+        "projectName": "Unity.VisualScripting.State",
+        "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.State.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.VisualScripting.State/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Core.csproj"
+              },
+              "/home/melito/Rolladong/Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "/home/melito/Rolladong/Unity.VisualScripting.Flow.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/Unity.VisualStudio.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/Unity.VisualStudio.Editor.csproj",
+        "projectName": "Unity.VisualStudio.Editor",
+        "projectPath": "/home/melito/Rolladong/Unity.VisualStudio.Editor.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/Unity.VisualStudio.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj",
+        "projectName": "UnityEditor.TestRunner",
+        "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/UnityEditor.TestRunner/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/UnityEditor.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/UnityEditor.UI.csproj",
+        "projectName": "UnityEditor.UI",
+        "projectPath": "/home/melito/Rolladong/UnityEditor.UI.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/UnityEditor.UI/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/melito/Rolladong/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEditor.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj"
+              },
+              "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+                "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/UnityEngine.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj",
+        "projectName": "UnityEngine.TestRunner",
+        "projectPath": "/home/melito/Rolladong/UnityEngine.TestRunner.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/UnityEngine.TestRunner/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melito/Rolladong/UnityEngine.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melito/Rolladong/UnityEngine.UI.csproj",
+        "projectName": "UnityEngine.UI",
+        "projectPath": "/home/melito/Rolladong/UnityEngine.UI.csproj",
+        "packagesPath": "/home/melito/.nuget/packages/",
+        "outputPath": "/home/melito/Rolladong/Temp/obj/Debug/UnityEngine.UI/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

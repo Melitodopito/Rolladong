@@ -1,0 +1,9 @@
+/home/melito/Rolladong/Temp/bin/Debug/UnityEngine.TestRunner.deps.json
+/home/melito/Rolladong/Temp/bin/Debug/UnityEngine.TestRunner.dll
+/home/melito/Rolladong/Temp/bin/Debug/UnityEngine.TestRunner.pdb
+/home/melito/Rolladong/Temp/obj/Debug/UnityEngine.TestRunner/UnityEngine.TestRunner.csproj.AssemblyReference.cache
+/home/melito/Rolladong/Temp/obj/Debug/UnityEngine.TestRunner/UnityEngine.TestRunner.GeneratedMSBuildEditorConfig.editorconfig
+/home/melito/Rolladong/Temp/obj/Debug/UnityEngine.TestRunner/UnityEngine.TestRunner.csproj.CoreCompileInputs.cache
+/home/melito/Rolladong/Temp/obj/Debug/UnityEngine.TestRunner/UnityEngine.TestRunner.sourcelink.json
+/home/melito/Rolladong/Temp/obj/Debug/UnityEngine.TestRunner/UnityEngine.TestRunner.dll
+/home/melito/Rolladong/Temp/obj/Debug/UnityEngine.TestRunner/UnityEngine.TestRunner.pdb
