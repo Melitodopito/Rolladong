@@ -19,6 +19,8 @@ public class PlayerBall : MonoBehaviour
     private Vector3 lastTouchPosition;
     private Vector3 firstTouchPosition;
 
+    private Vector3 myTestVector = new Vector3(0,0,0);
+
     public SphereCollider SpCollider { get{ return spCollider;} }
     
     void Start()
@@ -41,6 +43,8 @@ public class PlayerBall : MonoBehaviour
             
             Ray ray = Camera.main.ScreenPointToRay(touch.position);
             RaycastHit hit;
+            //Debug.Log($"This is firsTouchPosition when done NOT correctly {firstTouchPosition}");
+            
 
             // TO SOLVE, detects correctly the ball touch, however draggin works as well withou touching, perhaps reset firsttouchposition value 
 
@@ -49,25 +53,23 @@ public class PlayerBall : MonoBehaviour
                 case TouchPhase.Began:
                     if(isTouchingBall(ray,out hit)) {
                         firstTouchPosition = touchPosition;
-                     }
+                        //Debug.Log($"This is firsTouchPosition when done correctly {firstTouchPosition}");
+                    }else { 
+                        }
                     break;
 
                 case TouchPhase.Moved:
-                    isDragging = true;
-                    Debug.Log("I am draggin");
+                    //Debug.Log("I am draggin");
                     break;
 
                 case TouchPhase.Ended:
-                    if (isDragging) {
-                        lastTouchPosition = touchPosition;
-                        Vector3 direction = (lastTouchPosition - firstTouchPosition).normalized;
-                        Debug.Log($"This is my Direction Vector: {direction} ");
-                        MoveBall(direction);
-                    }
+                        if(firstTouchPosition != myTestVector){
+                            applyMoveVector(touchPosition);
+                        }
+                    
                     break;
 
                 case TouchPhase.Canceled:
-                    isDragging = false;
                     break;
             }
         }
@@ -101,6 +103,13 @@ public class PlayerBall : MonoBehaviour
         } else {
             return false;
         }
+    }
+
+    private void applyMoveVector(Vector3 touchPosition){
+        lastTouchPosition = touchPosition;
+        Vector3 direction = (lastTouchPosition - firstTouchPosition).normalized;
+        Debug.Log($"This is my Direction Vector: {direction} ");
+        MoveBall(direction);
     }
 
 
