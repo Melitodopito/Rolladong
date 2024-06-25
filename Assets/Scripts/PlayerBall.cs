@@ -14,8 +14,6 @@ public class PlayerBall : MonoBehaviour
     private Rigidbody rb;
 
     private SphereCollider spCollider;
-
-    private bool isDragging = false;
     private Vector3 lastTouchPosition;
     private Vector3 firstTouchPosition;
 
@@ -81,8 +79,6 @@ public class PlayerBall : MonoBehaviour
     private void MoveBall(Vector3 direction)
     {
         direction = direction.normalized;
-        Debug.Log($"THis is my direction {direction}");
-
         float xVector = -direction.x;
         float zVector = -direction.z;
 
