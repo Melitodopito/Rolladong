@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,25 +14,36 @@ public class PlayerBall : MonoBehaviour
     [SerializeField] Vector3 respawnPoint;
     private Rigidbody rb;
 
+    // Colliders
     private SphereCollider spCollider;
+
+    private Collision col;
+    
+    public SphereCollider SpCollider { get{ return spCollider;} }
+
+    // Vectors
     private Vector3 lastTouchPosition;
     private Vector3 firstTouchPosition;
 
     private Vector3 myTestVector = new Vector3(0,0,0);
 
-    public SphereCollider SpCollider { get{ return spCollider;} }
+    private bool ballTouchedWall = false;
+    private bool inHole = false;
+
+    private Transform tr;
     
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         spCollider = GetComponent<SphereCollider>();
+        tr = GetComponent<Transform>();
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+    
 
         if (Input.touchCount > 0)
         {
@@ -72,10 +84,10 @@ public class PlayerBall : MonoBehaviour
             }
         }
     }
-
-    // Not working properly
     
 
+
+    // NEXT MAKE COUNTING POINTS AND TIMER
     private void MoveBall(Vector3 direction)
     {
         direction = direction.normalized;
@@ -108,6 +120,30 @@ public class PlayerBall : MonoBehaviour
         MoveBall(direction);
     }
 
+    private void OnTriggerEnter(UnityEngine.Collider other){
+        if(other.CompareTag("Hole")) {
+            inHole = true;
+        }
+    }
+    private void OnCollisionStay(Collision collision){
+        if(ballTouchedWall && collision.gameObject.CompareTag("Floor") && !inHole) {
+            Debug.Log("TRANSFORM");
+            tr.position = respawnPoint;
+            rb.velocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
+            ballTouchedWall = false;
+        }
+    }
 
+    private void OnCollisionExit(Collision collision) {
+        
+        if (collision.gameObject.CompareTag("Wall")) {
+            ballTouchedWall = true;
+
+        }
+
+    }
+
+    
 
 }
