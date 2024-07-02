@@ -21,6 +21,7 @@ public class PlayerBall : MonoBehaviour
 
     // Vectors
     [SerializeField] Vector3 respawnPoint;
+    [SerializeField] Vector3 bounceBack;
 
     public Vector3 RespawnPoint
         {
@@ -29,11 +30,12 @@ public class PlayerBall : MonoBehaviour
         }
     private Vector3 lastTouchPosition;
     private Vector3 firstTouchPosition;
-    private Vector3 myTestVector = new Vector3(0,0,0);
     
     //Bools
     private bool ballTouchedWall = false;
     private bool ballInHole = false;
+
+    public bool BallInHole {set {ballInHole = value;} }
 
     
     void Start()
@@ -60,8 +62,6 @@ public class PlayerBall : MonoBehaviour
             //Debug.Log($"This is firsTouchPosition when done NOT correctly {firstTouchPosition}");
             
 
-            // TO SOLVE, detects correctly the ball touch, however draggin works as well withou touching, perhaps reset firsttouchposition value 
-
             switch (touch.phase)
             {
                 case TouchPhase.Began:
@@ -77,7 +77,7 @@ public class PlayerBall : MonoBehaviour
                     break;
 
                 case TouchPhase.Ended:
-                        if(firstTouchPosition != myTestVector){
+                        if(firstTouchPosition != Vector3.zero){
                             applyMoveVector(touchPosition);
                         }
                     
@@ -135,8 +135,8 @@ public class PlayerBall : MonoBehaviour
     private void OnCollisionStay(Collision collision){
         if(ballTouchedWall && collision.gameObject.CompareTag("Floor") && !ballInHole) {
             //Debug.Log("TRANSFORM");
-            gameManager.rewspawn(rb,tr,respawnPoint);
-            ballTouchedWall = false;
+            // gameManager.rewspawn(rb,tr,respawnPoint);
+            // ballTouchedWall = false;
         }
     }
 
@@ -144,7 +144,12 @@ public class PlayerBall : MonoBehaviour
         
         if (collision.gameObject.CompareTag("Wall")) {
             ballTouchedWall = true;
+        }
+    }
 
+    private void OnCollisionEnter(Collision collision) {
+        if(collision.gameObject.CompareTag("Wall") && !ballInHole) {
+            MoveBall(bounceBack);
         }
 
     }

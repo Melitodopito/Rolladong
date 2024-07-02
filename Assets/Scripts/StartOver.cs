@@ -26,7 +26,7 @@ public class WallScript : MonoBehaviour
         if (other.gameObject.tag == "Player") {
             Rigidbody rb = other.GetComponent<Rigidbody>();
             Transform tr = other.GetComponent<Transform>();
-            gameManager.rewspawn(rb,tr,playerBall.RespawnPoint);
+            gameManager.Respawn(rb,tr,playerBall.RespawnPoint);
         }
     }
 
