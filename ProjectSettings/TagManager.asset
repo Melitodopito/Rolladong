@@ -7,6 +7,7 @@ TagManager:
   - Wall
   - Floor
   - Hole
+  - PointScorer
   layers:
   - Default
   - TransparentFX

@@ -8,29 +8,33 @@ using UnityEngine.UI;
 
 public class PlayerBall : MonoBehaviour
 {
-    // Start is called before the first frame update
     [SerializeField] float rollSpeed = 10f;
+    [SerializeField] private GameManager gameManager;
+    private Transform tr;
 
-    [SerializeField] Vector3 respawnPoint;
+
+    // Colliders an Rigid body
+    private SphereCollider spCollider;
+    public SphereCollider SpCollider { get{ return spCollider;} }  
+    private Collision col;
     private Rigidbody rb;
 
-    // Colliders
-    private SphereCollider spCollider;
-
-    private Collision col;
-    
-    public SphereCollider SpCollider { get{ return spCollider;} }
-
     // Vectors
+    [SerializeField] Vector3 respawnPoint;
+
+    public Vector3 RespawnPoint
+        {
+            get { return respawnPoint; }
+            set { respawnPoint = value; }
+        }
     private Vector3 lastTouchPosition;
     private Vector3 firstTouchPosition;
-
     private Vector3 myTestVector = new Vector3(0,0,0);
-
+    
+    //Bools
     private bool ballTouchedWall = false;
-    private bool inHole = false;
+    private bool ballInHole = false;
 
-    private Transform tr;
     
     void Start()
     {
@@ -116,21 +120,22 @@ public class PlayerBall : MonoBehaviour
     private void applyMoveVector(Vector3 touchPosition){
         lastTouchPosition = touchPosition;
         Vector3 direction = (lastTouchPosition - firstTouchPosition).normalized;
-        Debug.Log($"This is my Direction Vector: {direction} ");
+        //Debug.Log($"This is my Direction Vector: {direction} ");
         MoveBall(direction);
     }
 
+    
+
     private void OnTriggerEnter(UnityEngine.Collider other){
         if(other.CompareTag("Hole")) {
-            inHole = true;
+            ballInHole = true;
         }
     }
+
     private void OnCollisionStay(Collision collision){
-        if(ballTouchedWall && collision.gameObject.CompareTag("Floor") && !inHole) {
-            Debug.Log("TRANSFORM");
-            tr.position = respawnPoint;
-            rb.velocity = Vector3.zero;
-            rb.angularVelocity = Vector3.zero;
+        if(ballTouchedWall && collision.gameObject.CompareTag("Floor") && !ballInHole) {
+            //Debug.Log("TRANSFORM");
+            gameManager.rewspawn(rb,tr,respawnPoint);
             ballTouchedWall = false;
         }
     }
