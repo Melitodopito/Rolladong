@@ -1,0 +1,205 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "Unity.ProBuilder.AddOns.Editor/1.0.0": {
+        "dependencies": {
+          "Unity.ProBuilder": "1.0.0",
+          "Unity.ProBuilder.Editor": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.ProBuilder.AddOns.Editor.dll": {}
+        }
+      },
+      "Unity.ProBuilder/1.0.0": {
+        "dependencies": {
+          "Unity.ProBuilder.KdTree": "1.0.0",
+          "Unity.ProBuilder.Poly2Tri": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.ProBuilder.dll": {}
+        }
+      },
+      "Unity.ProBuilder.AssetIdRemapUtility/1.0.0": {
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.ProBuilder.AssetIdRemapUtility.dll": {}
+        }
+      },
+      "Unity.ProBuilder.Csg/1.0.0": {
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.ProBuilder.Csg.dll": {}
+        }
+      },
+      "Unity.ProBuilder.Editor/1.0.0": {
+        "dependencies": {
+          "Unity.ProBuilder": "1.0.0",
+          "Unity.ProBuilder.AssetIdRemapUtility": "1.0.0",
+          "Unity.ProBuilder.Csg": "1.0.0",
+          "Unity.ProBuilder.Stl": "1.0.0",
+          "Unity.Settings.Editor": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.ProBuilder.Editor.dll": {}
+        }
+      },
+      "Unity.ProBuilder.KdTree/1.0.0": {
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.ProBuilder.KdTree.dll": {}
+        }
+      },
+      "Unity.ProBuilder.Poly2Tri/1.0.0": {
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.ProBuilder.Poly2Tri.dll": {}
+        }
+      },
+      "Unity.ProBuilder.Stl/1.0.0": {
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.ProBuilder.Stl.dll": {}
+        }
+      },
+      "Unity.Settings.Editor/1.0.0": {
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.Settings.Editor.dll": {}
+        }
+      },
+      "UnityEditor.TestRunner/1.0.0": {
+        "dependencies": {
+          "UnityEngine.TestRunner": "1.0.0"
+        },
+        "runtime": {
+          "UnityEditor.TestRunner.dll": {}
+        }
+      },
+      "UnityEditor.UI/1.0.0": {
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "UnityEditor.UI.dll": {}
+        }
+      },
+      "UnityEngine.TestRunner/1.0.0": {
+        "runtime": {
+          "UnityEngine.TestRunner.dll": {}
+        }
+      },
+      "UnityEngine.UI/1.0.0": {
+        "runtime": {
+          "UnityEngine.UI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Unity.ProBuilder.AddOns.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.ProBuilder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.ProBuilder.AssetIdRemapUtility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.ProBuilder.Csg/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.ProBuilder.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.ProBuilder.KdTree/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.ProBuilder.Poly2Tri/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.ProBuilder.Stl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Settings.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnityEditor.TestRunner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnityEditor.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnityEngine.TestRunner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnityEngine.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

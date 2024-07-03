@@ -1,0 +1,14 @@
+/home/melito/Rolladong/Temp/bin/Debug/Unity.ProBuilder.Poly2Tri.deps.json
+/home/melito/Rolladong/Temp/bin/Debug/Unity.ProBuilder.Poly2Tri.dll
+/home/melito/Rolladong/Temp/bin/Debug/Unity.ProBuilder.Poly2Tri.pdb
+/home/melito/Rolladong/Temp/bin/Debug/UnityEditor.UI.pdb
+/home/melito/Rolladong/Temp/bin/Debug/UnityEngine.UI.pdb
+/home/melito/Rolladong/Temp/bin/Debug/UnityEditor.TestRunner.pdb
+/home/melito/Rolladong/Temp/bin/Debug/UnityEngine.TestRunner.pdb
+/home/melito/Rolladong/Temp/obj/Debug/Unity.ProBuilder.Poly2Tri/Unity.ProBuilder.Poly2Tri.csproj.AssemblyReference.cache
+/home/melito/Rolladong/Temp/obj/Debug/Unity.ProBuilder.Poly2Tri/Unity.ProBuilder.Poly2Tri.GeneratedMSBuildEditorConfig.editorconfig
+/home/melito/Rolladong/Temp/obj/Debug/Unity.ProBuilder.Poly2Tri/Unity.ProBuilder.Poly2Tri.csproj.CoreCompileInputs.cache
+/home/melito/Rolladong/Temp/obj/Debug/Unity.ProBuilder.Poly2Tri/Unity.ProBuilder.Poly2Tri.sourcelink.json
+/home/melito/Rolladong/Temp/obj/Debug/Unity.ProBuilder.Poly2Tri/Unity.Pr.34BFE111.Up2Date
+/home/melito/Rolladong/Temp/obj/Debug/Unity.ProBuilder.Poly2Tri/Unity.ProBuilder.Poly2Tri.dll
+/home/melito/Rolladong/Temp/obj/Debug/Unity.ProBuilder.Poly2Tri/Unity.ProBuilder.Poly2Tri.pdb

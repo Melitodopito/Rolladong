@@ -1,0 +1,14 @@
+/home/melito/Rolladong/Temp/bin/Debug/Unity.ProBuilder.Csg.deps.json
+/home/melito/Rolladong/Temp/bin/Debug/Unity.ProBuilder.Csg.dll
+/home/melito/Rolladong/Temp/bin/Debug/Unity.ProBuilder.Csg.pdb
+/home/melito/Rolladong/Temp/bin/Debug/UnityEditor.UI.pdb
+/home/melito/Rolladong/Temp/bin/Debug/UnityEngine.UI.pdb
+/home/melito/Rolladong/Temp/bin/Debug/UnityEditor.TestRunner.pdb
+/home/melito/Rolladong/Temp/bin/Debug/UnityEngine.TestRunner.pdb
+/home/melito/Rolladong/Temp/obj/Debug/Unity.ProBuilder.Csg/Unity.ProBuilder.Csg.csproj.AssemblyReference.cache
+/home/melito/Rolladong/Temp/obj/Debug/Unity.ProBuilder.Csg/Unity.ProBuilder.Csg.GeneratedMSBuildEditorConfig.editorconfig
+/home/melito/Rolladong/Temp/obj/Debug/Unity.ProBuilder.Csg/Unity.ProBuilder.Csg.csproj.CoreCompileInputs.cache
+/home/melito/Rolladong/Temp/obj/Debug/Unity.ProBuilder.Csg/Unity.ProBuilder.Csg.sourcelink.json
+/home/melito/Rolladong/Temp/obj/Debug/Unity.ProBuilder.Csg/Unity.Pr.7BDFDEA5.Up2Date
+/home/melito/Rolladong/Temp/obj/Debug/Unity.ProBuilder.Csg/Unity.ProBuilder.Csg.dll
+/home/melito/Rolladong/Temp/obj/Debug/Unity.ProBuilder.Csg/Unity.ProBuilder.Csg.pdb

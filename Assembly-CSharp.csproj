@@ -70,6 +70,7 @@
     <Compile Include="Assets/Scripts/GameManager.cs" />
     <Compile Include="Assets/Scripts/DangerZone.cs" />
     <Compile Include="Assets/Scripts/StartOver.cs" />
+    <Compile Include="Assets/Scripts/VectorLine.cs" />
     <Compile Include="Assets/Scripts/WallBody.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,9 @@
+/home/melito/Rolladong/Temp/bin/Debug/UnityEngine.UI.deps.json
+/home/melito/Rolladong/Temp/bin/Debug/UnityEngine.UI.dll
+/home/melito/Rolladong/Temp/bin/Debug/UnityEngine.UI.pdb
+/home/melito/Rolladong/Temp/obj/Debug/UnityEngine.UI/UnityEngine.UI.csproj.AssemblyReference.cache
+/home/melito/Rolladong/Temp/obj/Debug/UnityEngine.UI/UnityEngine.UI.GeneratedMSBuildEditorConfig.editorconfig
+/home/melito/Rolladong/Temp/obj/Debug/UnityEngine.UI/UnityEngine.UI.csproj.CoreCompileInputs.cache
+/home/melito/Rolladong/Temp/obj/Debug/UnityEngine.UI/UnityEngine.UI.sourcelink.json
+/home/melito/Rolladong/Temp/obj/Debug/UnityEngine.UI/UnityEngine.UI.dll
+/home/melito/Rolladong/Temp/obj/Debug/UnityEngine.UI/UnityEngine.UI.pdb

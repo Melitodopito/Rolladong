@@ -364,6 +364,7 @@
 "Assets/Scripts/PlayerBall.cs"
 "Assets/Scripts/PointScorer.cs"
 "Assets/Scripts/StartOver.cs"
+"Assets/Scripts/VectorLine.cs"
 "Assets/Scripts/WallBody.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0

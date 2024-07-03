@@ -1,0 +1,14 @@
+/home/melito/Rolladong/Temp/bin/Debug/Unity.Timeline.deps.json
+/home/melito/Rolladong/Temp/bin/Debug/Unity.Timeline.dll
+/home/melito/Rolladong/Temp/bin/Debug/Unity.Timeline.pdb
+/home/melito/Rolladong/Temp/bin/Debug/UnityEditor.UI.pdb
+/home/melito/Rolladong/Temp/bin/Debug/UnityEngine.UI.pdb
+/home/melito/Rolladong/Temp/bin/Debug/UnityEditor.TestRunner.pdb
+/home/melito/Rolladong/Temp/bin/Debug/UnityEngine.TestRunner.pdb
+/home/melito/Rolladong/Temp/obj/Debug/Unity.Timeline/Unity.Timeline.csproj.AssemblyReference.cache
+/home/melito/Rolladong/Temp/obj/Debug/Unity.Timeline/Unity.Timeline.GeneratedMSBuildEditorConfig.editorconfig
+/home/melito/Rolladong/Temp/obj/Debug/Unity.Timeline/Unity.Timeline.csproj.CoreCompileInputs.cache
+/home/melito/Rolladong/Temp/obj/Debug/Unity.Timeline/Unity.Timeline.sourcelink.json
+/home/melito/Rolladong/Temp/obj/Debug/Unity.Timeline/Unity.Ti.0A14E847.Up2Date
+/home/melito/Rolladong/Temp/obj/Debug/Unity.Timeline/Unity.Timeline.dll
+/home/melito/Rolladong/Temp/obj/Debug/Unity.Timeline/Unity.Timeline.pdb

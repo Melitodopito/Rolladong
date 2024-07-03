@@ -2,15 +2,33 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
+using System.Numerics;
 using Unity.VisualScripting;
 using UnityEngine;
+//using UnityEngine.TestTools.Utils;
 using UnityEngine.UI;
+using Vector3 = UnityEngine.Vector3;
 
 public class PlayerBall : MonoBehaviour
-{
+{   
+    //Floats and Ints
     [SerializeField] float rollSpeed = 10f;
+
+    [SerializeField] int bounceMinX;
+    [SerializeField] int bounceMaxX;
+
+    [SerializeField] int bounceY;
+    
+    
+    [SerializeField] int bounceZ;
+
+
+
+    // Different Components
     [SerializeField] private GameManager gameManager;
     private Transform tr;
+
+    private LineRenderer lineRenderer;
 
 
     // Colliders an Rigid body
@@ -19,9 +37,10 @@ public class PlayerBall : MonoBehaviour
     private Collision col;
     private Rigidbody rb;
 
+
+
     // Vectors
     [SerializeField] Vector3 respawnPoint;
-    [SerializeField] Vector3 bounceBack;
 
     public Vector3 RespawnPoint
         {
@@ -43,6 +62,7 @@ public class PlayerBall : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         spCollider = GetComponent<SphereCollider>();
         tr = GetComponent<Transform>();
+        lineRenderer = GetComponent<LineRenderer>();
         
     }
 
@@ -67,23 +87,24 @@ public class PlayerBall : MonoBehaviour
                 case TouchPhase.Began:
                     if(isTouchingBall(ray,out hit)) {
                         firstTouchPosition = touchPosition;
-                        //Debug.Log($"This is firsTouchPosition when done correctly {firstTouchPosition}");
-                    }else { 
+
                         }
                     break;
 
                 case TouchPhase.Moved:
-                    //Debug.Log("I am draggin");
+                        //DrawLine(firstTouchPosition, touchPosition);
                     break;
 
                 case TouchPhase.Ended:
                         if(firstTouchPosition != Vector3.zero){
                             applyMoveVector(touchPosition);
+                            lineRenderer.enabled = false;
                         }
                     
                     break;
 
                 case TouchPhase.Canceled:
+                    lineRenderer.enabled = false; 
                     break;
             }
         }
@@ -91,14 +112,40 @@ public class PlayerBall : MonoBehaviour
     
 
 
-    // NEXT MAKE COUNTING POINTS AND TIMER
+    // Ball Movements
     private void MoveBall(Vector3 direction)
     {
         direction = direction.normalized;
         float xVector = -direction.x;
         float zVector = -direction.z;
+    
 
         rb.AddForce(xVector, (float) 0.0, zVector * rollSpeed , ForceMode.Impulse);
+    }
+    private void applyMoveVector(Vector3 touchPosition){
+        lastTouchPosition = touchPosition;
+        Vector3 direction = (lastTouchPosition - firstTouchPosition).normalized;
+        //Debug.Log($"This is my Direction Vector: {direction} ");
+        MoveBall(direction);
+    }
+
+    private void BounceBack(){
+
+        // X must have both types of values
+        // Y must be positive
+        // Z must be negative
+        
+        float xVector = UnityEngine.Random.Range(bounceMinX,bounceMaxX);
+        float yVector = UnityEngine.Random.Range(0,bounceY);
+        float zVector = UnityEngine.Random.Range(bounceZ,0);
+
+        // maybe better option below, must test it out.
+
+        //Vector3 bounceBack = new Vector3(xVector,yVector,zVector);
+        //bounceBack = bounceBack.normalized;
+
+        //Debug.Log($"This is my Vector3 {bounceBack}");
+        rb.AddForce(new Vector3(xVector,yVector,zVector), ForceMode.Impulse);
     }
 
 
@@ -117,12 +164,6 @@ public class PlayerBall : MonoBehaviour
         }
     }
 
-    private void applyMoveVector(Vector3 touchPosition){
-        lastTouchPosition = touchPosition;
-        Vector3 direction = (lastTouchPosition - firstTouchPosition).normalized;
-        //Debug.Log($"This is my Direction Vector: {direction} ");
-        MoveBall(direction);
-    }
 
     
 
@@ -149,11 +190,16 @@ public class PlayerBall : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision) {
         if(collision.gameObject.CompareTag("Wall") && !ballInHole) {
-            MoveBall(bounceBack);
+            BounceBack();
         }
 
     }
 
-    
+    private void DrawLine(Vector3 start, Vector3 end) {
+        lineRenderer.enabled = true;
+        lineRenderer.SetPosition(0, start);
+        lineRenderer.SetPosition(1, end);
+    }    
+
 
 }

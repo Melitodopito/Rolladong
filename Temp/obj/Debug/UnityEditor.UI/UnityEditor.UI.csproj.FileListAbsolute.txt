@@ -1,0 +1,13 @@
+/home/melito/Rolladong/Temp/bin/Debug/UnityEditor.UI.deps.json
+/home/melito/Rolladong/Temp/bin/Debug/UnityEditor.UI.dll
+/home/melito/Rolladong/Temp/bin/Debug/UnityEditor.UI.pdb
+/home/melito/Rolladong/Temp/bin/Debug/UnityEngine.UI.pdb
+/home/melito/Rolladong/Temp/bin/Debug/UnityEditor.TestRunner.pdb
+/home/melito/Rolladong/Temp/bin/Debug/UnityEngine.TestRunner.pdb
+/home/melito/Rolladong/Temp/obj/Debug/UnityEditor.UI/UnityEditor.UI.csproj.AssemblyReference.cache
+/home/melito/Rolladong/Temp/obj/Debug/UnityEditor.UI/UnityEditor.UI.GeneratedMSBuildEditorConfig.editorconfig
+/home/melito/Rolladong/Temp/obj/Debug/UnityEditor.UI/UnityEditor.UI.csproj.CoreCompileInputs.cache
+/home/melito/Rolladong/Temp/obj/Debug/UnityEditor.UI/UnityEditor.UI.sourcelink.json
+/home/melito/Rolladong/Temp/obj/Debug/UnityEditor.UI/UnityEdi.F134638D.Up2Date
+/home/melito/Rolladong/Temp/obj/Debug/UnityEditor.UI/UnityEditor.UI.dll
+/home/melito/Rolladong/Temp/obj/Debug/UnityEditor.UI/UnityEditor.UI.pdb

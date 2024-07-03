@@ -1,0 +1,736 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "Assembly-CSharp/1.0.0": {
+        "dependencies": {
+          "Unity.AdaptivePerformance": "1.0.0",
+          "Unity.AdaptivePerformance.Editor": "1.0.0",
+          "Unity.AdaptivePerformance.Profiler.Editor": "1.0.0",
+          "Unity.AdaptivePerformance.Simulator.Editor": "1.0.0",
+          "Unity.AdaptivePerformance.Simulator.Extension": "1.0.0",
+          "Unity.AdaptivePerformance.UI.Editor": "1.0.0",
+          "Unity.Mobile.AndroidLogcat.Editor": "1.0.0",
+          "Unity.Notifications": "1.0.0",
+          "Unity.Notifications.Android": "1.0.0",
+          "Unity.Notifications.Unified": "1.0.0",
+          "Unity.Notifications.iOS": "1.0.0",
+          "Unity.PlasticSCM.Editor": "1.0.0",
+          "Unity.ProBuilder": "1.0.0",
+          "Unity.ProBuilder.AddOns.Editor": "1.0.0",
+          "Unity.ProBuilder.AssetIdRemapUtility": "1.0.0",
+          "Unity.ProBuilder.Editor": "1.0.0",
+          "Unity.Profiling.Core": "1.0.0",
+          "Unity.Rider.Editor": "1.0.0",
+          "Unity.Subsystem.Registration": "1.0.0",
+          "Unity.TextMeshPro": "1.0.0",
+          "Unity.TextMeshPro.Editor": "1.0.0",
+          "Unity.Timeline": "1.0.0",
+          "Unity.Timeline.Editor": "1.0.0",
+          "Unity.VSCode.Editor": "1.0.0",
+          "Unity.VisualScripting.Core": "1.0.0",
+          "Unity.VisualScripting.Core.Editor": "1.0.0",
+          "Unity.VisualScripting.Flow": "1.0.0",
+          "Unity.VisualScripting.Flow.Editor": "1.0.0",
+          "Unity.VisualScripting.SettingsProvider.Editor": "1.0.0",
+          "Unity.VisualScripting.Shared.Editor": "1.0.0",
+          "Unity.VisualScripting.State": "1.0.0",
+          "Unity.VisualScripting.State.Editor": "1.0.0",
+          "Unity.VisualStudio.Editor": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Assembly-CSharp.dll": {}
+        }
+      },
+      "Unity.AdaptivePerformance/1.0.0": {
+        "dependencies": {
+          "Unity.Profiling.Core": "1.0.0",
+          "Unity.Subsystem.Registration": "1.0.0",
+          "Unity.VisualScripting.Core": "1.0.0",
+          "Unity.VisualScripting.Flow": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.AdaptivePerformance.dll": {}
+        }
+      },
+      "Unity.AdaptivePerformance.Editor/1.0.0": {
+        "dependencies": {
+          "Unity.AdaptivePerformance": "1.0.0",
+          "Unity.Profiling.Core": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.AdaptivePerformance.Editor.dll": {}
+        }
+      },
+      "Unity.AdaptivePerformance.Profiler.Editor/1.0.0": {
+        "dependencies": {
+          "Unity.AdaptivePerformance": "1.0.0",
+          "Unity.AdaptivePerformance.UI.Editor": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.AdaptivePerformance.Profiler.Editor.dll": {}
+        }
+      },
+      "Unity.AdaptivePerformance.Simulator.Editor/1.0.0": {
+        "dependencies": {
+          "Unity.AdaptivePerformance": "1.0.0",
+          "Unity.AdaptivePerformance.Editor": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.AdaptivePerformance.Simulator.Editor.dll": {}
+        }
+      },
+      "Unity.AdaptivePerformance.Simulator.Extension/1.0.0": {
+        "dependencies": {
+          "Unity.AdaptivePerformance": "1.0.0",
+          "Unity.AdaptivePerformance.Editor": "1.0.0",
+          "Unity.AdaptivePerformance.Simulator.Editor": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.AdaptivePerformance.Simulator.Extension.dll": {}
+        }
+      },
+      "Unity.AdaptivePerformance.UI.Editor/1.0.0": {
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.AdaptivePerformance.UI.Editor.dll": {}
+        }
+      },
+      "Unity.Mobile.AndroidLogcat.Editor/1.0.0": {
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.Mobile.AndroidLogcat.Editor.dll": {}
+        }
+      },
+      "Unity.Notifications/1.0.0": {
+        "dependencies": {
+          "Unity.Notifications.Android": "1.0.0",
+          "Unity.Notifications.iOS": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.Notifications.dll": {}
+        }
+      },
+      "Unity.Notifications.Android/1.0.0": {
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.Notifications.Android.dll": {}
+        }
+      },
+      "Unity.Notifications.iOS/1.0.0": {
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.Notifications.iOS.dll": {}
+        }
+      },
+      "Unity.Notifications.Unified/1.0.0": {
+        "dependencies": {
+          "Unity.Notifications.Android": "1.0.0",
+          "Unity.Notifications.iOS": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.Notifications.Unified.dll": {}
+        }
+      },
+      "Unity.PlasticSCM.Editor/1.0.0": {
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.PlasticSCM.Editor.dll": {}
+        }
+      },
+      "Unity.ProBuilder/1.0.0": {
+        "dependencies": {
+          "Unity.ProBuilder.KdTree": "1.0.0",
+          "Unity.ProBuilder.Poly2Tri": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.ProBuilder.dll": {}
+        }
+      },
+      "Unity.ProBuilder.AddOns.Editor/1.0.0": {
+        "dependencies": {
+          "Unity.ProBuilder": "1.0.0",
+          "Unity.ProBuilder.Editor": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.ProBuilder.AddOns.Editor.dll": {}
+        }
+      },
+      "Unity.ProBuilder.AssetIdRemapUtility/1.0.0": {
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.ProBuilder.AssetIdRemapUtility.dll": {}
+        }
+      },
+      "Unity.ProBuilder.Csg/1.0.0": {
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.ProBuilder.Csg.dll": {}
+        }
+      },
+      "Unity.ProBuilder.Editor/1.0.0": {
+        "dependencies": {
+          "Unity.ProBuilder": "1.0.0",
+          "Unity.ProBuilder.AssetIdRemapUtility": "1.0.0",
+          "Unity.ProBuilder.Csg": "1.0.0",
+          "Unity.ProBuilder.Stl": "1.0.0",
+          "Unity.Settings.Editor": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.ProBuilder.Editor.dll": {}
+        }
+      },
+      "Unity.ProBuilder.KdTree/1.0.0": {
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.ProBuilder.KdTree.dll": {}
+        }
+      },
+      "Unity.ProBuilder.Poly2Tri/1.0.0": {
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.ProBuilder.Poly2Tri.dll": {}
+        }
+      },
+      "Unity.ProBuilder.Stl/1.0.0": {
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.ProBuilder.Stl.dll": {}
+        }
+      },
+      "Unity.Profiling.Core/1.0.0": {
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.Profiling.Core.dll": {}
+        }
+      },
+      "Unity.Rider.Editor/1.0.0": {
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.Rider.Editor.dll": {}
+        }
+      },
+      "Unity.Settings.Editor/1.0.0": {
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.Settings.Editor.dll": {}
+        }
+      },
+      "Unity.Subsystem.Registration/1.0.0": {
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.Subsystem.Registration.dll": {}
+        }
+      },
+      "Unity.TextMeshPro/1.0.0": {
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.TextMeshPro.dll": {}
+        }
+      },
+      "Unity.TextMeshPro.Editor/1.0.0": {
+        "dependencies": {
+          "Unity.TextMeshPro": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.TextMeshPro.Editor.dll": {}
+        }
+      },
+      "Unity.Timeline/1.0.0": {
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.Timeline.dll": {}
+        }
+      },
+      "Unity.Timeline.Editor/1.0.0": {
+        "dependencies": {
+          "Unity.Timeline": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.Timeline.Editor.dll": {}
+        }
+      },
+      "Unity.VisualScripting.Core/1.0.0": {
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.VisualScripting.Core.dll": {}
+        }
+      },
+      "Unity.VisualScripting.Core.Editor/1.0.0": {
+        "dependencies": {
+          "Unity.VisualScripting.Core": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.VisualScripting.Core.Editor.dll": {}
+        }
+      },
+      "Unity.VisualScripting.Flow/1.0.0": {
+        "dependencies": {
+          "Unity.VisualScripting.Core": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.VisualScripting.Flow.dll": {}
+        }
+      },
+      "Unity.VisualScripting.Flow.Editor/1.0.0": {
+        "dependencies": {
+          "Unity.VisualScripting.Core": "1.0.0",
+          "Unity.VisualScripting.Core.Editor": "1.0.0",
+          "Unity.VisualScripting.Flow": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.VisualScripting.Flow.Editor.dll": {}
+        }
+      },
+      "Unity.VisualScripting.SettingsProvider.Editor/1.0.0": {
+        "dependencies": {
+          "Unity.VisualScripting.Core": "1.0.0",
+          "Unity.VisualScripting.Core.Editor": "1.0.0",
+          "Unity.VisualScripting.Flow": "1.0.0",
+          "Unity.VisualScripting.Flow.Editor": "1.0.0",
+          "Unity.VisualScripting.State": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.VisualScripting.SettingsProvider.Editor.dll": {}
+        }
+      },
+      "Unity.VisualScripting.Shared.Editor/1.0.0": {
+        "dependencies": {
+          "Unity.VisualScripting.Core": "1.0.0",
+          "Unity.VisualScripting.Core.Editor": "1.0.0",
+          "Unity.VisualScripting.Flow": "1.0.0",
+          "Unity.VisualScripting.Flow.Editor": "1.0.0",
+          "Unity.VisualScripting.State": "1.0.0",
+          "Unity.VisualScripting.State.Editor": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.VisualScripting.Shared.Editor.dll": {}
+        }
+      },
+      "Unity.VisualScripting.State/1.0.0": {
+        "dependencies": {
+          "Unity.VisualScripting.Core": "1.0.0",
+          "Unity.VisualScripting.Flow": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.VisualScripting.State.dll": {}
+        }
+      },
+      "Unity.VisualScripting.State.Editor/1.0.0": {
+        "dependencies": {
+          "Unity.VisualScripting.Core": "1.0.0",
+          "Unity.VisualScripting.Core.Editor": "1.0.0",
+          "Unity.VisualScripting.Flow": "1.0.0",
+          "Unity.VisualScripting.Flow.Editor": "1.0.0",
+          "Unity.VisualScripting.State": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.VisualScripting.State.Editor.dll": {}
+        }
+      },
+      "Unity.VisualStudio.Editor/1.0.0": {
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.VisualStudio.Editor.dll": {}
+        }
+      },
+      "Unity.VSCode.Editor/1.0.0": {
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "Unity.VSCode.Editor.dll": {}
+        }
+      },
+      "UnityEditor.TestRunner/1.0.0": {
+        "dependencies": {
+          "UnityEngine.TestRunner": "1.0.0"
+        },
+        "runtime": {
+          "UnityEditor.TestRunner.dll": {}
+        }
+      },
+      "UnityEditor.UI/1.0.0": {
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "runtime": {
+          "UnityEditor.UI.dll": {}
+        }
+      },
+      "UnityEngine.TestRunner/1.0.0": {
+        "runtime": {
+          "UnityEngine.TestRunner.dll": {}
+        }
+      },
+      "UnityEngine.UI/1.0.0": {
+        "runtime": {
+          "UnityEngine.UI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Assembly-CSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.AdaptivePerformance/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.AdaptivePerformance.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.AdaptivePerformance.Profiler.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.AdaptivePerformance.Simulator.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.AdaptivePerformance.Simulator.Extension/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.AdaptivePerformance.UI.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Mobile.AndroidLogcat.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Notifications/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Notifications.Android/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Notifications.iOS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Notifications.Unified/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.PlasticSCM.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.ProBuilder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.ProBuilder.AddOns.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.ProBuilder.AssetIdRemapUtility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.ProBuilder.Csg/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.ProBuilder.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.ProBuilder.KdTree/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.ProBuilder.Poly2Tri/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.ProBuilder.Stl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Profiling.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Rider.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Settings.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Subsystem.Registration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.TextMeshPro/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.TextMeshPro.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Timeline/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Timeline.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.VisualScripting.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.VisualScripting.Core.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.VisualScripting.Flow/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.VisualScripting.Flow.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.VisualScripting.SettingsProvider.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.VisualScripting.Shared.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.VisualScripting.State/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.VisualScripting.State.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.VisualStudio.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.VSCode.Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnityEditor.TestRunner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnityEditor.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnityEngine.TestRunner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnityEngine.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
