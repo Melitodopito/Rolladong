@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class LevelsSelectMenu : MonoBehaviour
 {
-    
+
     public void Loadlevel(string levelName){
-        
+
         SceneManager.LoadScene(levelName);
     }
 }

@@ -51,5 +51,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Rolladong.sln"
+    "dotnet.defaultSolution": "Rolladong.sln",
+    "dotnet.preferCSharpExtension": true
 }

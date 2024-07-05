@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI timerText;
     [SerializeField] private PlayerBall playerBall;
 
+
     [SerializeField] float timeLeft;
     private int score;
     void Start()
@@ -19,17 +20,22 @@ public class GameManager : MonoBehaviour
         UpdateTimer();
     }
 
-    void Update() {
-        if(timeLeft > 0){
+    void Update()
+    {
+        if (timeLeft > 0)
+        {
             timeLeft -= Time.deltaTime;
             timeLeft = Mathf.Max(timeLeft, 0);
             UpdateTimer();
-        } else {
+        }
+        else
+        {
             timeLeft = 0;
         }
     }
 
-    public void UpdateScore(int scoreToAdd) {
+    public void UpdateScore(int scoreToAdd)
+    {
         score += scoreToAdd;
         scoreText.text = "Score: " + score;
     }
@@ -40,12 +46,13 @@ public class GameManager : MonoBehaviour
         rb.velocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
         playerBall.BallInHole = false;
-        
+
     }
 
-    private void UpdateTimer() {
+    private void UpdateTimer()
+    {
         int seconds = Mathf.FloorToInt(timeLeft % 60);
-        timerText.text = string.Format("Time Left: {0:00}",seconds);
+        timerText.text = string.Format("Time Left: {0:00}", seconds);
     }
 
-}   
+}

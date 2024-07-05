@@ -18,6 +18,6 @@ public class WallSpining : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rotationController.Rotate(rotationVector * spinningSpeed);
+        rotationController.Rotate(rotationVector * spinningSpeed * Time.deltaTime);
     }
 }

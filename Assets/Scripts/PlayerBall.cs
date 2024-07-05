@@ -96,6 +96,7 @@ public class PlayerBall : MonoBehaviour
                 case TouchPhase.Ended:
                         if(firstTouchPosition != Vector3.zero){
                             applyMoveVector(touchPosition);
+                            firstTouchPosition= Vector3.zero;
                             
                         }
                     
