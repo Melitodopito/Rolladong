@@ -28,7 +28,6 @@ public class PlayerBall : MonoBehaviour
     [SerializeField] private GameManager gameManager;
     private Transform tr;
 
-    private LineRenderer lineRenderer;
 
 
     // Colliders an Rigid body
@@ -62,7 +61,6 @@ public class PlayerBall : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         spCollider = GetComponent<SphereCollider>();
         tr = GetComponent<Transform>();
-        lineRenderer = GetComponent<LineRenderer>();
         
     }
 
@@ -98,13 +96,13 @@ public class PlayerBall : MonoBehaviour
                 case TouchPhase.Ended:
                         if(firstTouchPosition != Vector3.zero){
                             applyMoveVector(touchPosition);
-                            lineRenderer.enabled = false;
+                            
                         }
                     
                     break;
 
                 case TouchPhase.Canceled:
-                    lineRenderer.enabled = false; 
+                     
                     break;
             }
         }
@@ -195,11 +193,6 @@ public class PlayerBall : MonoBehaviour
 
     }
 
-    private void DrawLine(Vector3 start, Vector3 end) {
-        lineRenderer.enabled = true;
-        lineRenderer.SetPosition(0, start);
-        lineRenderer.SetPosition(1, end);
-    }    
-
+    
 
 }
