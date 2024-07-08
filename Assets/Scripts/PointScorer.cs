@@ -20,10 +20,13 @@ public class PointScorer : MonoBehaviour
     }
 
     private void OnTriggerEnter(UnityEngine.Collider other){
-        if(other.CompareTag("Player")) {
+        if(other.CompareTag("Player") && CompareTag("Hole")) {
             gameManager.UpdateScore(1);
         }
-        
+        if (other.CompareTag("Player") && CompareTag("SuperHole"))
+        {
+            gameManager.UpdateScore(10);
+        }
     }
 
 }
