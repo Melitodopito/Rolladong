@@ -28,6 +28,7 @@ public class PlayerBall : MonoBehaviour
     [SerializeField] private GameManager gameManager;
     private Transform tr;
 
+    private LineRenderer lineRenderer;
 
 
     // Colliders an Rigid body
@@ -55,77 +56,53 @@ public class PlayerBall : MonoBehaviour
 
     public bool BallInHole {set {ballInHole = value;} }
 
-    
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         spCollider = GetComponent<SphereCollider>();
         tr = GetComponent<Transform>();
+
+        
+        //lineRenderer.positionCount = 2;
         
     }
 
     // Update is called once per frame
     void Update()
     {
-    
-
-        if (Input.touchCount > 0)
-        {
-            Touch touch = Input.GetTouch(0);
-            Vector3 touchPosition = Camera.main.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, Camera.main.nearClipPlane));
-            //Debug.Log("Touch position (screen): " + touchPosition);
-            
-            Ray ray = Camera.main.ScreenPointToRay(touch.position);
-            RaycastHit hit;
-            //Debug.Log($"This is firsTouchPosition when done NOT correctly {firstTouchPosition}");
-            
-
-            switch (touch.phase)
-            {
-                case TouchPhase.Began:
-                    if(isTouchingBall(ray,out hit)) {
-                        firstTouchPosition = touchPosition;
-
-                        }
-                    break;
-
-                case TouchPhase.Moved:
-                        //DrawLine(firstTouchPosition, touchPosition);
-                    break;
-
-                case TouchPhase.Ended:
-                        if(firstTouchPosition != Vector3.zero){
-                            applyMoveVector(touchPosition);
-                            firstTouchPosition= Vector3.zero;
-                            
-                        }
-                    
-                    break;
-
-                case TouchPhase.Canceled:
-                     
-                    break;
-            }
-        }
+        TouchInput();
     }
     
 
 
     // Ball Movements
-    private void MoveBall(Vector3 direction)
+    private void MoveBall(Vector3 direction, float dragDistance)
     {
         direction = direction.normalized;
         float xVector = -direction.x;
         float zVector = -direction.z;
-    
+        float dragDistanceForce;
 
-        rb.AddForce(xVector, (float) 0.0, zVector * rollSpeed , ForceMode.Impulse);
+        if(dragDistance <= 0.05) {
+            dragDistanceForce = 1;
+        } else if ( dragDistance > 0.050 && dragDistance < 0.09)
+        {
+            dragDistanceForce =(float) 1.5;
+        }
+        else
+        {
+            dragDistanceForce = (float) 1.75;
+        }
+
+        rb.AddForce(xVector, (float) 0.0, (zVector * rollSpeed) * dragDistanceForce , ForceMode.Impulse);
     }
     private void applyMoveVector(Vector3 touchPosition){
         lastTouchPosition = touchPosition;
-        Vector3 direction = (lastTouchPosition - firstTouchPosition).normalized;
-        //Debug.Log($"This is my Direction Vector: {direction} ");
-        MoveBall(direction);
+        Vector3 direction = (lastTouchPosition - firstTouchPosition);
+        float dragDistance = direction.magnitude;
+        Debug.Log($"Drag Distance is: {dragDistance}");
+        // Debug.Log($"This is my Direction Vector: {direction} ");
+        MoveBall(direction,dragDistance);
     }
 
     private void BounceBack(){
@@ -195,5 +172,57 @@ public class PlayerBall : MonoBehaviour
     }
 
     
+    private void TouchInput()
+    {
+
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+            Vector3 touchPosition = Camera.main.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, Camera.main.nearClipPlane));
+            //Debug.Log("Touch position (screen): " + touchPosition);
+
+
+            Ray ray = Camera.main.ScreenPointToRay(touch.position);
+            RaycastHit hit;
+            //Debug.Log($"This is firsTouchPosition when done NOT correctly {firstTouchPosition}");
+
+
+            switch (touch.phase)
+            {
+                case TouchPhase.Began:
+                    if (isTouchingBall(ray, out hit))
+                    {
+                  
+                        firstTouchPosition = touchPosition;
+
+          
+                    }
+                    break;
+
+                case TouchPhase.Moved:
+                    lineRenderer = GetComponent<LineRenderer>();
+                    lineRenderer.SetPosition(0, tr.position);
+                    lineRenderer.SetPosition(1, touchPosition);
+                    
+                    break;
+
+                case TouchPhase.Ended:
+                    if (firstTouchPosition != Vector3.zero)
+                    {
+                        applyMoveVector(touchPosition);
+                        firstTouchPosition = Vector3.zero;
+
+                        lineRenderer.SetPosition(1, tr.position);
+
+                    }
+
+                    break;
+
+                case TouchPhase.Canceled:
+
+                    break;
+            }
+        }
+    }
 
 }
