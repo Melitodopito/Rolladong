@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Utilizador\\Desktop\\Rolladong\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55ED2C3D-4358-D848-DD1C-3B2DF863FC25}|Assembly-CSharp.csproj|c:\\users\\utilizador\\desktop\\rolladong\\assets\\scripts\\playerball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55ED2C3D-4358-D848-DD1C-3B2DF863FC25}|Assembly-CSharp.csproj|C:\\Users\\Utilizador\\Desktop\\Rolladong\\assets\\scripts\\playerball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55ED2C3D-4358-D848-DD1C-3B2DF863FC25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55ED2C3D-4358-D848-DD1C-3B2DF863FC25}|Assembly-CSharp.csproj|c:\\users\\utilizador\\desktop\\rolladong\\assets\\scripts\\rotatingzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55ED2C3D-4358-D848-DD1C-3B2DF863FC25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotatingzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55ED2C3D-4358-D848-DD1C-3B2DF863FC25}|Assembly-CSharp.csproj|C:\\Users\\Utilizador\\Desktop\\Rolladong\\assets\\scripts\\wallbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55ED2C3D-4358-D848-DD1C-3B2DF863FC25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wallbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WallBody.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizador\\Desktop\\Rolladong\\Assets\\Scripts\\WallBody.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WallBody.cs",
+              "ToolTip": "C:\\Users\\Utilizador\\Desktop\\Rolladong\\Assets\\Scripts\\WallBody.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WallBody.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T15:25:08.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RotatingZone.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizador\\Desktop\\Rolladong\\Assets\\Scripts\\RotatingZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RotatingZone.cs",
+              "ToolTip": "C:\\Users\\Utilizador\\Desktop\\Rolladong\\Assets\\Scripts\\RotatingZone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RotatingZone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T15:24:59.084Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +57,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerBall.cs",
               "ToolTip": "C:\\Users\\Utilizador\\Desktop\\Rolladong\\Assets\\Scripts\\PlayerBall.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerBall.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEwAAAAAAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAmwGIAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-06T21:03:20.54Z",
               "EditorCaption": ""
