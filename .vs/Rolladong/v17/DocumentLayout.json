@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Utilizador\\Desktop\\Rolladong\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{55ED2C3D-4358-D848-DD1C-3B2DF863FC25}|Assembly-CSharp.csproj|c:\\users\\utilizador\\desktop\\rolladong\\assets\\scripts\\wallbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55ED2C3D-4358-D848-DD1C-3B2DF863FC25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wallbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55ED2C3D-4358-D848-DD1C-3B2DF863FC25}|Assembly-CSharp.csproj|C:\\Users\\Utilizador\\Desktop\\Rolladong\\assets\\scripts\\rotatingzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55ED2C3D-4358-D848-DD1C-3B2DF863FC25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotatingzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55ED2C3D-4358-D848-DD1C-3B2DF863FC25}|Assembly-CSharp.csproj|C:\\Users\\Utilizador\\Desktop\\Rolladong\\assets\\scripts\\playerball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55ED2C3D-4358-D848-DD1C-3B2DF863FC25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55ED2C3D-4358-D848-DD1C-3B2DF863FC25}|Assembly-CSharp.csproj|c:\\users\\utilizador\\desktop\\rolladong\\assets\\scripts\\rotatingzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55ED2C3D-4358-D848-DD1C-3B2DF863FC25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotatingzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55ED2C3D-4358-D848-DD1C-3B2DF863FC25}|Assembly-CSharp.csproj|C:\\Users\\Utilizador\\Desktop\\Rolladong\\assets\\scripts\\wallbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55ED2C3D-4358-D848-DD1C-3B2DF863FC25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wallbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55ED2C3D-4358-D848-DD1C-3B2DF863FC25}|Assembly-CSharp.csproj|C:\\Users\\Utilizador\\Desktop\\Rolladong\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55ED2C3D-4358-D848-DD1C-3B2DF863FC25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +26,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizador\\Desktop\\Rolladong\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Utilizador\\Desktop\\Rolladong\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T18:40:32.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "WallBody.cs",
               "DocumentMoniker": "C:\\Users\\Utilizador\\Desktop\\Rolladong\\Assets\\Scripts\\WallBody.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WallBody.cs",
               "ToolTip": "C:\\Users\\Utilizador\\Desktop\\Rolladong\\Assets\\Scripts\\WallBody.cs",
               "RelativeToolTip": "Assets\\Scripts\\WallBody.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAADAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T15:25:08.464Z"
+              "WhenOpened": "2024-07-09T15:25:08.464Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -46,21 +63,19 @@
               "RelativeToolTip": "Assets\\Scripts\\RotatingZone.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T15:24:59.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T15:24:59.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PlayerBall.cs",
               "DocumentMoniker": "C:\\Users\\Utilizador\\Desktop\\Rolladong\\Assets\\Scripts\\PlayerBall.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerBall.cs",
               "ToolTip": "C:\\Users\\Utilizador\\Desktop\\Rolladong\\Assets\\Scripts\\PlayerBall.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerBall.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAmwGIAAAAvAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAIwD0AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T21:03:20.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T21:03:20.54Z"
             }
           ]
         }
