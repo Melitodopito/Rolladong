@@ -65,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: df6a24eb8a681b34d8fb11b03e07acab, type: 2}
+  - {fileID: 4733321879266481461, guid: c33b12f2f53c1674a9b1a2b22fa27729, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -153,7 +153,7 @@ MonoBehaviour:
   bounceY: 5
   bounceZ: -5
   gameManager: {fileID: 0}
-  respawnPoint: {x: -1.367634, y: 1.742161, z: -6.7}
+  respawnPoint: {x: -1.37, y: 1.87, z: -5.77}
 --- !u!120 &8791355673189353887
 LineRenderer:
   serializedVersion: 2
